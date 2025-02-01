@@ -4,10 +4,10 @@
 Bagels is a number-guessing logic game where players must deduce a secret three-digit number based on clues provided after each guess. The game ensures an engaging console experience with animations and color-coded hints.
 
 ## How to Play
-1. The game will generate a secret 3-digit number with no repeating digits.
+1. The game will generate a secret 3-digit number without repeating digits.
 2. Players have 10 attempts to guess the correct number.
 3. After each guess, clues will be provided:
-   - 🟢 **Fermi**: A digit is correct and in the correct position.
+   - 🟢 **Fermi**: A digit is correct and positioned correctly.
    - 🟡 **Pico**: A digit is correct but in the wrong position.
    - 🔴 **Bagels**: No digits are correct.
 4. Use logic and deduction to guess the correct number within the allowed attempts.
@@ -33,16 +33,16 @@ Bagels is a number-guessing logic game where players must deduce a secret three-
 
 ## Dependencies
 - Standard Python libraries: `random`, `time`, `sys`, `os`.
-- No external dependencies required.
+- No external dependencies are required.
 
 ## Customization
 - Change `NUM_DIGITS` to modify the number of digits in the secret number.
 - Adjust `MAX_GUESSES` to increase or decrease the number of attempts.
-- Modify the color codes and animations for a personalized console experience.
+- Modify the colour codes and animations for a personalized console experience.
 
 ## License
 This project is open-source and can be modified or distributed freely.
 
 ## Author
-Developed by [Your Name].
+Developed by [Abhimanyu Banerjee].
 
